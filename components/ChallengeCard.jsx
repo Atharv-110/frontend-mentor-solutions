@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 const ChallengeCard = ({ title, banner, tech, level, route }) => {
   return (
-    <div className="max-w-[300px] border bg-white shadow-md rounded-xl">
+    <div className="max-w-[300px] max-sm:mx-auto border bg-white shadow-md rounded-xl">
       <Link href={route}>
         <Image
           src={banner}

@@ -1,4 +1,4 @@
-import BlogPreviewCard from "@/components/BlogPreviewCard";
+import BlogPreviewCard from "./BlogPreviewCard";
 const BlogPreviewPage = () => {
   return (
     <main className="container flex justify-center">

@@ -1,5 +1,9 @@
-import Image from "next/image";
+import BlogPreviewCard from "@/components/BlogPreviewCard";
 
 export default function Home() {
-  return <main></main>;
+  return (
+    <main className="flex items-center justify-center my-10 mx-[5%]">
+      <BlogPreviewCard />
+    </main>
+  );
 }

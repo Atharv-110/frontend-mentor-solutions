@@ -1,0 +1,16 @@
+{
+    "challenge": [
+        {
+            "id": 1,
+            "title": "Blog Preview Card",
+            "banner": "/data/images/blog_card_preview.jpg",
+            "technologies": [
+                "React",
+                "Next",
+                "Tailwind"
+            ],
+            "level": 1,
+            "route": "/blog-preview-card"
+        }
+    ]
+}

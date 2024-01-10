@@ -1,9 +1,20 @@
-import BlogPreviewCard from "@/components/BlogPreviewCard";
+import ChallengeCard from "@/components/ChallengeCard";
+import challengeData from "@/public/data/challenges";
 
 export default function Home() {
+  const data = challengeData.challenge;
   return (
-    <main className="flex items-center justify-center my-10 mx-[5%]">
-      <BlogPreviewCard />
+    <main className="container flex gap-8 items-center flex-wrap">
+      {data.map((item) => (
+        <ChallengeCard
+          key={item.id}
+          title={item.title}
+          banner={item.banner}
+          tech={item.technologies}
+          level={item.level}
+          route={item.route}
+        />
+      ))}
     </main>
   );
 }

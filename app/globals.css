@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.low {
+  background-color: #f4d04e;
+  background-color: #121212;
+  background-color: #808080;
+}
+
+.container {
+  @apply pt-20 md:pt-[7rem] mx-auto w-full md:px-[3%];
+}

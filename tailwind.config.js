@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         figtree: ["Figtree", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
       },
     },
   },

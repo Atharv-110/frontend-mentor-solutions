@@ -1,6 +1,36 @@
 import Image from "next/image";
 import Link from "next/link";
+
 const ChallengeCard = ({ title, banner, tech, level, route }) => {
+  const levelStyles = {
+    1: {
+      container:
+        "w-fit flex border-2 rounded-[5px] items-center border-[#6abecd]",
+      badge: "px-2 bg-[#6abecd] text-white text-sm font-semibold",
+      label:
+        "bg-white rounded-[5px] px-2 text-sm uppercase font-bold text-[#6abecd]",
+      text: "Newbie",
+    },
+    2: {
+      container:
+        "w-fit flex border-2 rounded-[5px] items-center border-[#aad742]",
+      badge: "px-2 bg-[#aad742] text-white text-sm font-semibold",
+      label:
+        "bg-white rounded-[5px] px-2 text-sm uppercase font-bold text-[#aad742]",
+      text: "Junior",
+    },
+    default: {
+      container:
+        "w-fit flex border-2 rounded-[5px] items-center border-[#f1b604]",
+      badge: "px-2 bg-[#f1b604] text-white text-sm font-semibold",
+      label:
+        "bg-white rounded-[5px] px-2 text-sm uppercase font-bold text-[#f1b604]",
+      text: "Intermediate",
+    },
+  };
+
+  const currentLevelStyle = levelStyles[level] || levelStyles.default;
+
   return (
     <div className="max-w-[300px] max-sm:mx-auto border bg-white shadow-md rounded-xl">
       <Link href={route}>
@@ -12,27 +42,21 @@ const ChallengeCard = ({ title, banner, tech, level, route }) => {
           className="w-fit rounded-xl rounded-b-none"
         />
       </Link>
-      <div className="px-2 py-4 flex flex-col gap-3">
+      <div className="px-3 py-5 flex flex-col gap-3">
         <Link href={route}>
-          <h1 className="text-lg font-semibold hover:underline ease-in-out duration-200">
-            {title}
-          </h1>
+          <h1 className="text-lg w-fit font-bold hover:underline">{title}</h1>
         </Link>
 
-        <div className="text-sm">
-          <div className="flex gap-2 mb-4">
-            {tech.map((item, idx) => (
-              <h3 key={idx}>{item}</h3>
-            ))}
-          </div>
-          <div className="w-fit flex border-2 rounded-[5px] items-center border-blue-400 ">
-            <h1 className="px-2 bg-blue-400 text-white text-sm font-semibold">
-              {level}
-            </h1>
-            <h1 className="bg-white rounded-[5px] px-2 text-sm font-semibold text-blue-400">
-              {level == 1 ? "Newbie" : level == 2 ? "Junior" : "Intermediate"}
-            </h1>
-          </div>
+        <div className="flex gap-1 text-xs">
+          {tech.map((item, idx) => (
+            <h3 key={idx} className="challenge_card_text uppercase font-bold">
+              {item}
+            </h3>
+          ))}
+        </div>
+        <div className={currentLevelStyle.container}>
+          <h1 className={currentLevelStyle.badge}>{level}</h1>
+          <h1 className={currentLevelStyle.label}>{currentLevelStyle.text}</h1>
         </div>
       </div>
     </div>

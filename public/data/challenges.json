@@ -11,6 +11,18 @@
             ],
             "level": 1,
             "route": "/blog-preview-card"
+        },
+        {
+            "id": 2,
+            "title": "QR Code Component",
+            "banner": "/data/images/qr_code_preview.jpg",
+            "technologies": [
+                "React",
+                "Next",
+                "Tailwind"
+            ],
+            "level": 1,
+            "route": "/qr-code-component"
         }
     ]
 }

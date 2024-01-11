@@ -1,15 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.low {
-  background-color: #f4d04e;
-  background-color: #121212;
-  background-color: #808080;
-}
+/* .low {
+  background-color: #d6e2f0;
+  background-color: #7b879d;
+  background-color: #1f3251;
+  background-color: #6abecd;
+  background-color: #aad742;
+  background-color: #f1b604;
+} */
 
 .container {
-  @apply pt-20 md:pt-[7rem] mx-auto w-full md:px-[3%];
+  @apply py-20 p-0 md:py-[7rem] mx-auto w-full md:px-[4%];
+}
+
+.challenge_card_text {
+  @apply text-[#6abecd];
+}
+
+.challenge_card_text:nth-child(2n) {
+  @apply text-[#3e54a3];
+}
+
+.challenge_card_text:nth-child(3n) {
+  @apply text-[#cf6390];
+}
+.challenge_card_text:nth-child(4n) {
+  @apply text-[#aad742];
 }

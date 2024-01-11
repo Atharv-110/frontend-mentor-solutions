@@ -32,7 +32,7 @@ const ChallengeCard = ({ title, banner, tech, level, route }) => {
   const currentLevelStyle = levelStyles[level] || levelStyles.default;
 
   return (
-    <div className="max-w-[300px] max-sm:mx-auto border bg-white shadow-md rounded-xl">
+    <div className="max-w-[300px] max-sm:mx-auto border bg-white shadow-lg rounded-xl">
       <Link href={route}>
         <Image
           src={banner}
@@ -47,7 +47,7 @@ const ChallengeCard = ({ title, banner, tech, level, route }) => {
           <h1 className="text-lg w-fit font-bold hover:underline">{title}</h1>
         </Link>
 
-        <div className="flex gap-1 text-xs">
+        <div className="flex gap-1.5 text-xs items-center flex-wrap">
           {tech.map((item, idx) => (
             <h3 key={idx} className="challenge_card_text uppercase font-bold">
               {item}

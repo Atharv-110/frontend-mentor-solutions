@@ -23,6 +23,19 @@
             ],
             "level": 1,
             "route": "/qr-code-component"
+        },
+        {
+            "id": 3,
+            "title": "Advice Generator App",
+            "banner": "/data/images/advice_generator_preview.jpg",
+            "technologies": [
+                "React",
+                "Next",
+                "Tailwind",
+                "API"
+            ],
+            "level": 2,
+            "route": "/advice-generator"
         }
     ]
 }

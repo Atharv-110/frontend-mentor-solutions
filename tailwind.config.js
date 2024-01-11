@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         figtree: ["Figtree", "sans-serif"],
         outfit: ["Outfit", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
       },
     },
   },

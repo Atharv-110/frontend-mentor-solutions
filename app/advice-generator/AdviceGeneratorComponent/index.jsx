@@ -9,6 +9,8 @@ const AdviceGeneratorComponent = () => {
   const [advice, setAdvice] = useState([]);
   const [loading, setLoading] = useState(true);
   const initialized = useRef(false);
+
+  // API Fetching function
   const fetchAdvice = async () => {
     setLoading((state) => !state);
     const response = await fetch("https://api.adviceslip.com/advice");

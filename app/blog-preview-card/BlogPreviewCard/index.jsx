@@ -13,9 +13,9 @@ const BlogPreviewCard = () => {
           alt="illustration"
           className="w-full rounded-xl"
         />
-        <h3 className="px-2 py-1 bg-[#f4d04e] font-[600] w-fit rounded-md">
+        <p className="px-2 py-1 bg-[#f4d04e] font-[600] w-fit rounded-md">
           Learning
-        </h3>
+        </p>
         <p className="text-sm font-[600]">Published 21 Dec 2023</p>
         <h1 className="text-xl md:text-2xl font-[800] hover:text-[#f4d04e] cursor-pointer ease-in-out duration-200">
           HTML & CSS foundations
@@ -26,7 +26,7 @@ const BlogPreviewCard = () => {
         </p>
         <div className="flex items-center gap-3">
           <Image src={Avatar} width={40} height={40} alt="avatar" />
-          <h3 className="font-[800] text-sm">Greg Hooper</h3>
+          <h2 className="font-[800] text-sm">Greg Hooper</h2>
         </div>
       </div>
     </div>

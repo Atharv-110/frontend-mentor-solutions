@@ -12,9 +12,9 @@ const QRCodeComponent = () => {
           alt="qr code image"
           className="w-fit rounded-lg"
         />
-        <h2 className="font-[700] text-[#1f3251] text-center text-xl">
+        <h1 className="font-[700] text-[#1f3251] text-center text-xl">
           Improve your front-end skills by building projects
-        </h2>
+        </h1>
         <p className="text-sm text-[#7b879d] text-center font-[400]">
           Scan the QR code to visit Frontend Mentor and take coding skills to
           next level

@@ -40,7 +40,7 @@
         {
             "id": 4,
             "title": "Tip Calculator App",
-            "banner": "/data/images/advice_generator_preview.jpg",
+            "banner": "/data/images/tip_calculator_preview.jpg",
             "technologies": [
                 "React",
                 "Next",

@@ -173,17 +173,17 @@ const TipCalculatorComponent = () => {
         <div className="md:w-[47%] pt-8 pb-6 px-5 flex flex-col justify-between rounded-xl bg-[#00494d]">
           <div className="flex flex-col gap-6 md:gap-8 mb-10 md:mb-0">
             <div className="flex items-center justify-between font-bold">
-              <h3 className="text-sm text-[#f4fafa]">
+              <h1 className="text-sm text-[#f4fafa]">
                 Tip Amount{" "}
                 <span className="block text-xs text-[#7f9c9f]">/ person</span>
-              </h3>
+              </h1>
               <h1 className="text-3xl text-[#26c0ab]">${tipAmount}</h1>
             </div>
             <div className="flex items-center justify-between font-bold">
-              <h3 className="text-sm text-[#f4fafa]">
+              <h1 className="text-sm text-[#f4fafa]">
                 Total{" "}
                 <span className="block text-xs text-[#7f9c9f]">/ person</span>
-              </h3>
+              </h1>
               <h1 className="text-3xl text-[#26c0ab]">${total}</h1>
             </div>
           </div>

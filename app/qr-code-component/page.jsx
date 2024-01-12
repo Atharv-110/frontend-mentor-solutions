@@ -1,10 +1,8 @@
 import QRCodeComponent from "./QrCodeComponent";
-import BackBtn from "@/components/BackBtn";
 
 const QRCodePage = () => {
   return (
-    <main className="container">
-      <BackBtn />
+    <main className="container bg-[#d6e2f0]">
       <QRCodeComponent />
     </main>
   );

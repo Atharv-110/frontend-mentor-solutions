@@ -28,7 +28,7 @@ const AdviceGeneratorComponent = () => {
     }
   }, []);
   return (
-    <div className="bg-[#1f2632] py-16 px-4 md:px-10">
+    <div className="bg-[#1f2632] py-24 px-4 md:px-10">
       <div className="relative max-w-[400px] mx-auto font-manrope font-[800] bg-[#323a49] px-8 pt-8 pb-14 flex flex-col items-center gap-4 md:gap-6 rounded-2xl">
         <h1 className="text-[#52ffa8] text-sm tracking-[5px] text-center">
           ADVICE #{advice.id}

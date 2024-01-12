@@ -1,10 +1,8 @@
 import AdviceGeneratorComponent from "./AdviceGeneratorComponent";
-import BackBtn from "@/components/BackBtn";
 
 const AdviceGeneratorApp = () => {
   return (
-    <main className="container">
-      <BackBtn />
+    <main className="container bg-[#1f2632]">
       <AdviceGeneratorComponent />
     </main>
   );

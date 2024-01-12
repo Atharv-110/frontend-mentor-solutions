@@ -36,6 +36,18 @@
             ],
             "level": 2,
             "route": "/advice-generator"
+        },
+        {
+            "id": 4,
+            "title": "Tip Calculator App",
+            "banner": "/data/images/advice_generator_preview.jpg",
+            "technologies": [
+                "React",
+                "Next",
+                "Tailwind"
+            ],
+            "level": 2,
+            "route": "/tip-calculator"
         }
     ]
 }

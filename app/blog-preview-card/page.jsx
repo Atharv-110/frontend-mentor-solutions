@@ -1,9 +1,7 @@
 import BlogPreviewCard from "./BlogPreviewCard";
-import BackBtn from "@/components/BackBtn";
 const BlogPreviewPage = () => {
   return (
-    <main className="container">
-      <BackBtn />
+    <main className="container bg-[#f4d04e]">
       <BlogPreviewCard />
     </main>
   );

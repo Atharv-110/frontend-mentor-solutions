@@ -4,17 +4,19 @@ import challengeData from "@/public/data/challenges";
 export default function Home() {
   const data = challengeData.challenge;
   return (
-    <main className="container flex gap-8 md:gap-14 items-center flex-wrap">
-      {data.map((item) => (
-        <ChallengeCard
-          key={item.id}
-          title={item.title}
-          banner={item.banner}
-          tech={item.technologies}
-          level={item.level}
-          route={item.route}
-        />
-      ))}
+    <main className="container">
+      <div className="w-full flex gap-y-8 md:gap-y-12 justify-between flex-wrap">
+        {data.map((item) => (
+          <ChallengeCard
+            key={item.id}
+            title={item.title}
+            banner={item.banner}
+            tech={item.technologies}
+            level={item.level}
+            route={item.route}
+          />
+        ))}
+      </div>
     </main>
   );
 }

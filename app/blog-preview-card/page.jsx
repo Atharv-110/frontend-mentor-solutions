@@ -1,7 +1,7 @@
 import BlogPreviewCard from "./BlogPreviewCard";
 const BlogPreviewPage = () => {
   return (
-    <main className="container bg-[#f4d04e]">
+    <main className="container">
       <BlogPreviewCard />
     </main>
   );

@@ -2,7 +2,7 @@ import QRCodeComponent from "./QrCodeComponent";
 
 const QRCodePage = () => {
   return (
-    <main className="container bg-[#d6e2f0]">
+    <main className="container">
       <QRCodeComponent />
     </main>
   );

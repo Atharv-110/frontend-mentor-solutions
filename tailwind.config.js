@@ -12,6 +12,7 @@ module.exports = {
         outfit: ["Outfit", "sans-serif"],
         manrope: ["Manrope", "sans-serif"],
         spaceMono: ["Space Mono", "monospace"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

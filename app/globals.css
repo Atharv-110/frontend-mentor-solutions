@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -19,12 +20,12 @@ input[type="number"] {
 }
 
 .low {
-  background-color: #26c0ab;
-  background-color: #00494d;
-  background-color: #5e7a7d;
-  background-color: #7f9c9f;
-  background-color: #c5e4e7;
-  background-color: #f4fafa;
+  background-color: #854dff;
+  background-color: hsl(0, 100%, 67%);
+  background-color: #f0f0f0;
+  background-color: #dbdbdb;
+  background-color: #716f6f;
+  background-color: #141414;
 }
 
 .container {
@@ -49,4 +50,9 @@ input[type="number"] {
 /* Tip Calculator */
 .tip_btn {
   @apply py-1 bg-[#00494d] rounded-[4px] font-bold text-[#f4fafa] hover:bg-[#c5e4e7] hover:text-[#00494d] focus:text-[#00494d] focus:bg-[#26c0ab];
+}
+
+/* Age Calculator */
+.age_input {
+  @apply block text-[28px] md:text-[32px] w-[90px] md:w-[120px] rounded-md outline-none border-2 border-[#dbdbdb] px-1 md:px-4 py-1 focus:border-[#854dff] invalid:border-red-400 focus:invalid:border-red-400;
 }

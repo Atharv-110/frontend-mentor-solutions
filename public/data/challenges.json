@@ -48,6 +48,18 @@
             ],
             "level": 2,
             "route": "/tip-calculator"
+        },
+        {
+            "id": 5,
+            "title": "Age Calculator App",
+            "banner": "/data/images/age_calculator_preview.jpg",
+            "technologies": [
+                "React",
+                "Next",
+                "Tailwind"
+            ],
+            "level": 2,
+            "route": "/age-calculator"
         }
     ]
 }

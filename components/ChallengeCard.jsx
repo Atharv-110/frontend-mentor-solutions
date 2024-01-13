@@ -32,19 +32,21 @@ const ChallengeCard = ({ title, banner, tech, level, route }) => {
   const currentLevelStyle = levelStyles[level] || levelStyles.default;
 
   return (
-    <div className="max-w-[300px] max-sm:mx-auto border bg-white shadow-lg rounded-xl">
+    <div className="w-[300px] max-sm:mx-auto border border-gray-300 bg-white shadow-md rounded-2xl">
       <Link href={route}>
         <Image
           src={banner}
-          width={200}
-          height={200}
+          width={300}
+          height={300}
           alt="banner image"
-          className="w-fit rounded-xl rounded-b-none"
+          className="w-full rounded-t-2xl"
         />
       </Link>
       <div className="px-3 py-5 flex flex-col gap-3">
-        <Link href={route}>
-          <h1 className="text-lg w-fit font-bold hover:underline">{title}</h1>
+        <Link href={route} className="w-fit">
+          <h1 className="text-lg tracking-wide w-fit font-semibold hover:underline">
+            {title}
+          </h1>
         </Link>
 
         <div className="flex gap-1.5 text-xs items-center flex-wrap">

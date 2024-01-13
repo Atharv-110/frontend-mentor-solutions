@@ -59,3 +59,24 @@ input[type="number"] {
 .age_input_false {
   @apply block text-[28px] md:text-[32px] w-[90px] md:w-[120px] rounded-md outline-none border-2 border-[#ff5757] px-1 md:px-3  focus:border-[#854dff] invalid:border-[#ff5757] focus:invalid:border-[#ff5757];
 }
+
+/* Custom scrollbar */
+/* width */
+::-webkit-scrollbar {
+  @apply w-0 md:w-[5px];
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-300;
+}

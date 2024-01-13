@@ -5,7 +5,7 @@ export default function Home() {
   const data = challengeData.challenge;
   return (
     <main className="container">
-      <div className="w-full flex gap-y-8 md:gap-y-12 justify-between flex-wrap">
+      <div className="w-full flex justify-between items-center gap-y-8 md:gap-y-12 flex-wrap">
         {data.map((item) => (
           <ChallengeCard
             key={item.id}

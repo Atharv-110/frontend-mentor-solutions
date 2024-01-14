@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const ChallengeCard = ({ title, banner, tech, level, route }) => {
+const ChallengeCard = ({ title, banner, tech, level, route, target }) => {
   const levelStyles = {
     1: {
       container:
@@ -33,7 +33,7 @@ const ChallengeCard = ({ title, banner, tech, level, route }) => {
 
   return (
     <div className="w-[280px] md:w-[300px] max-sm:mx-auto border border-gray-300 bg-white shadow-md rounded-2xl overflow-hidden">
-      <Link href={route}>
+      <Link href={route} target={target ? "_blank" : "_self"}>
         <Image
           src={banner}
           width={300}
@@ -43,7 +43,11 @@ const ChallengeCard = ({ title, banner, tech, level, route }) => {
         />
       </Link>
       <div className="p-4 flex flex-col gap-4">
-        <Link href={route} className="w-fit">
+        <Link
+          href={route}
+          className="w-fit"
+          target={target ? "_blank" : "_self"}
+        >
           <h1 className="text-lg tracking-wide w-fit font-semibold hover:text-gray-600 ease-in-out duration-200">
             {title}🚀
           </h1>

@@ -14,6 +14,7 @@ export default function Home() {
             tech={item.technologies}
             level={item.level}
             route={item.route}
+            target={item.target}
           />
         ))}
       </div>

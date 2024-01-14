@@ -72,6 +72,19 @@
             ],
             "level": 1,
             "route": "/product-preview-card"
+        },
+        {
+            "id": 7,
+            "title": "Huddle Landing Page",
+            "banner": "/data/images/huddle_landing_preview.jpg",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Tailwind"
+            ],
+            "level": 1,
+            "route": "https://atharv-110.github.io/huddle-landing-page/",
+            "target": true
         }
     ]
 }

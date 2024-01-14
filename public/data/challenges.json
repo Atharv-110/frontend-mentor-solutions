@@ -60,6 +60,18 @@
             ],
             "level": 2,
             "route": "/age-calculator"
+        },
+        {
+            "id": 6,
+            "title": "Product Preview Card",
+            "banner": "/data/images/product_card_preview.jpg",
+            "technologies": [
+                "React",
+                "Next",
+                "Tailwind"
+            ],
+            "level": 1,
+            "route": "/product-preview-card"
         }
     ]
 }

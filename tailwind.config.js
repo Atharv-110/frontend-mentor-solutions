@@ -13,6 +13,8 @@ module.exports = {
         manrope: ["Manrope", "sans-serif"],
         spaceMono: ["Space Mono", "monospace"],
         poppins: ["Poppins", "sans-serif"],
+        fraunces: ["Fraunces", "serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },

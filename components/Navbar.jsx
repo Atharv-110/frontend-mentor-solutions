@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="fixed w-full z-30 top-0 bg-white px-2 md:px-6 py-3 md:py-4 shadow-md flex items-center justify-between">
+    <nav className="fixed w-full z-30 top-0 bg-white px-3 md:px-6 py-3 md:py-4 shadow-md flex items-center justify-between">
       <Link href="/">
         <Image
           src="https://www.frontendmentor.io/static/images/logo-desktop.svg"

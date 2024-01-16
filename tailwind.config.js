@@ -16,6 +16,10 @@ module.exports = {
         fraunces: ["Fraunces", "serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+      colors: {
+        "theme-red": "#ED2C49",
+        "theme-black": "#1C2022"
+      },
     },
   },
   plugins: [],

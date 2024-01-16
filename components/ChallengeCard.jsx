@@ -48,7 +48,7 @@ const ChallengeCard = ({ title, banner, tech, level, route, target }) => {
           className="w-fit"
           target={target ? "_blank" : "_self"}
         >
-          <h1 className="text-lg tracking-wide w-fit font-semibold hover:text-gray-600 ease-in-out duration-200">
+          <h1 className="text-lg text-[#3E54A3] tracking-wide w-fit font-bold hover:text-gray-700 ease-in-out duration-200">
             {title}🚀
           </h1>
         </Link>

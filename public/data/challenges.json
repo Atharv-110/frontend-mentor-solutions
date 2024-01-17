@@ -85,6 +85,18 @@
             "level": 1,
             "route": "https://atharv-110.github.io/huddle-landing-page/",
             "target": true
+        },
+        {
+            "id": 8,
+            "title": "Newsletter Sign-up",
+            "banner": "/data/images/newsletter_signup_preview.jpg",
+            "technologies": [
+                "Next",
+                "React",
+                "Tailwind"
+            ],
+            "level": 1,
+            "route": "/newsletter-signup-with-success"
         }
     ]
 }

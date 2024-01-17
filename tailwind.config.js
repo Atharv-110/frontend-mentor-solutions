@@ -15,6 +15,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         fraunces: ["Fraunces", "serif"],
         montserrat: ["Montserrat", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
       colors: {
         "theme-red": "#ED2C49",

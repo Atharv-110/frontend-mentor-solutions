@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import bullet from "./assets/icon-list.svg";
 import desktopBanner from "./assets/illustration-sign-up-desktop.svg";
+import mobileBanner from "./assets/illustration-sign-up-mobile.svg";
 import tick from "./assets/icon-success.svg";
 
 const NewsletterSignupComponent = () => {
@@ -41,10 +42,13 @@ const NewsletterSignupComponent = () => {
   };
 
   return (
-    <div className="bg-[#36384e] py-10">
+    <div className="md:bg-[#36384e] md:py-10">
       {!redirect ? (
-        <div className="w-[700px] h-fit mx-auto p-6 rounded-3xl flex items-center gap-7 bg-white font-roboto">
-          <div className="w-[55%] px-4 flex flex-col gap-4">
+        <div className="w-full md:w-[700px] h-fit mx-auto max-sm:pb-6 md:p-6 overflow-hidden md:rounded-3xl flex flex-col md:flex items-center gap-7 bg-white font-roboto">
+          <div>
+            <Image src={mobileBanner} width={200} height={200} alt="mobile banner" className="w-fit"></Image>
+          </div>
+          <div className="w-full md:w-[55%] px-6 md:px-4 flex flex-col gap-4">
             <h1 className="text-[2.5rem] font-bold text-[#242742]">
               Stay updated!
             </h1>
@@ -96,18 +100,18 @@ const NewsletterSignupComponent = () => {
               </button>
             </form>
           </div>
-          <div className="w-[calc(100%-55%)]">
+          <div className="hidden md:block w-[calc(100%-55%)]">
             <Image
               src={desktopBanner}
               width={100}
               height={100}
               alt="desktop banner"
-              className="w-fit"
+              className=" w-fit"
             />
           </div>
         </div>
       ) : (
-        <div className="bg-white flex flex-col gap-5 rounded-3xl w-[400px] py-6 px-10 mx-auto">
+        <div className="bg-white flex flex-col gap-8 md:gap-5 rounded-3xl max-sm:h-screen md:w-[400px] py-6 px-10 mx-auto">
           <Image src={tick} width={50} height={50} alt="success icon" />
           <h1 className="text-[2.5rem] leading-none font-bold text-[#242742]">
             Thanks for subscribing!
@@ -119,7 +123,7 @@ const NewsletterSignupComponent = () => {
           </p>
           <button
             onClick={handleDismiss}
-            className="bg-[#242742] w-full text-xs font-bold text-white py-3 rounded-lg"
+            className="bg-[#242742] max-sm:mt-32 w-full text-xs font-bold text-white py-3 rounded-lg"
           >
             Dismiss Message
           </button>

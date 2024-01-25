@@ -97,6 +97,18 @@
             ],
             "level": 2,
             "route": "/newsletter-signup-with-success"
+        },
+        {
+            "id": 9,
+            "title": "Social Links Profile",
+            "banner": "/data/images/social_links_profile_preview.jpg",
+            "technologies": [
+                "Next",
+                "React",
+                "Tailwind"
+            ],
+            "level": 1,
+            "route": "/social-links-profile"
         }
     ]
 }

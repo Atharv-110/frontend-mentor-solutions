@@ -16,6 +16,7 @@ module.exports = {
         fraunces: ["Fraunces", "serif"],
         montserrat: ["Montserrat", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
+        inter: ["Inter", "sans-serif"]
       },
       colors: {
         "theme-red": "#ED2C49",

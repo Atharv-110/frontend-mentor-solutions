@@ -23,14 +23,14 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-.low {
+/* .low {
   background-color: #c5f82a;
   background-color: #333333;
   background-color: #1f1f1f;
   background-color: #141414;
   background-color: #9294a0;
   background-color: #ffffff;
-}
+} */
 
 .container {
   @apply py-20 p-0 md:py-[7rem] mx-auto w-full md:px-[4%];

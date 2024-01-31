@@ -19,3 +19,4 @@
 5. Age calculator app [Challenge](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) [Solution](https://frontend-mentor-solutions-atharv.vercel.app/age-calculator)
 6. Product preview card component [Challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) [Solution](https://frontend-mentor-solutions-atharv.vercel.app/product-preview-card)
 7. Huddle landing page with a single introductory section [Challenge](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) [Solution](https://atharv-110.github.io/huddle-landing-page/)
+8. Social Links Profile [Challenge](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) [Solution](https://frontend-mentor-solutions-atharv.vercel.app/social-links-profile)
